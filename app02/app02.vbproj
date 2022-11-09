@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB586CED-459A-457D-938F-1A0AD476EBA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>appfarmaciaa.My.MyApplication</StartupObject>
+    <RootNamespace>appfarmaciaa</RootNamespace>
+    <AssemblyName>appfarmaciaa</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>appfarmaciaa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>appfarmaciaa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\appfarmaciaa\Guna-Framework-master\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\Guna-Framework-master\extension\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Foms\AgregarCategoria.Designer.vb">
+      <DependentUpon>AgregarCategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\AgregarCategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\AgregarCliente.Designer.vb">
+      <DependentUpon>AgregarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\AgregarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\categoria.Designer.vb">
+      <DependentUpon>categoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\categoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\clientes.Designer.vb">
+      <DependentUpon>clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\compras.Designer.vb">
+      <DependentUpon>compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\empleado.Designer.vb">
+      <DependentUpon>empleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\empleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\productos.Designer.vb">
+      <DependentUpon>productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\proveedores.Designer.vb">
+      <DependentUpon>proveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\usuario.Designer.vb">
+      <DependentUpon>usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foms\ventas.Designer.vb">
+      <DependentUpon>ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Foms\ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RGBColors.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Foms\AgregarCategoria.resx">
+      <DependentUpon>AgregarCategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foms\AgregarCliente.resx">
+      <DependentUpon>AgregarCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foms\categoria.resx">
+      <DependentUpon>categoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foms\clientes.resx">
+      <DependentUpon>clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foms\compras.resx">
+      <DependentUpon>compras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foms\usuario.resx">
+      <DependentUpon>usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.vbproj">
+      <Project>{1aeb5c6e-8eb2-449e-b323-dbf0ab1b79d6}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.vbproj">
+      <Project>{ecd12e24-4664-4a15-b362-1c270bda6fbb}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

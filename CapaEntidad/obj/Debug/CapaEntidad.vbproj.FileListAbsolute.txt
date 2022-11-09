@@ -1,0 +1,10 @@
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\bin\Debug\CapaEntidad.xml
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\obj\Debug\CapaEntidad.vbproj.AssemblyReference.cache
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.cache
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\obj\Debug\CapaEntidad.vbproj.CoreCompileInputs.cache
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\obj\Debug\CapaEntidad.xml
+C:\Users\smith\Documents\APPFARMACIA\Nueva carpeta\app02\CapaEntidad\obj\Debug\CapaEntidad.pdb
